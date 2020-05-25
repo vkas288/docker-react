@@ -1,3 +1,19 @@
+To start with this project from scratch follow below steps:
+1. download nodejs from https://nodejs.org/en/download/
+2. npx create-react-app frontend
+3. then create dockerfile
+
+Troubleshooting tips:
+
+if you're getting response timeout error: npm ERR! Response timeout while trying to fetch <some_URL> (over 30000ms)
+it means that your nternet is slow
+
+if you're getting npm ERR! Unexpected end of JSON input while parsing near <some_more_lines>
+it means cache is corrupted run:
+npm cache clean --force
+
+-----------------------------------------------------------------------------------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
