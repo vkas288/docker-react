@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          How you doing...!
+          This is running from AWS Elastic Beanstalk.
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
